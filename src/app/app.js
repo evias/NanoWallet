@@ -86,6 +86,7 @@ const requires = [
     'pascalprecht.translate',
     'app.lang',
     'app.changelly',
+    'app.shapeshift',
     'app.addressBook',
     'app.importanceTransfer',
     'app.multisigImportanceTransfer',
