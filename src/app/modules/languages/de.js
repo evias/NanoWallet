@@ -161,14 +161,22 @@ function GermanProvider($translateProvider) {
         GENERAL_ENCRYPTED: 'Encrypted',
         GENERAL_UNENCRYPTED: 'Unencrypted',
         GENERAL_HEXADECIMAL: 'Hexadecimal',
+<<<<<<< HEAD
         GENERAL_SELECT_ACCOUNT: 'Select account',
         GENERAL_INVOICE: 'Invoice',
+=======
+>>>>>>> add german translation for nano 2.0
 
         // HOME MODULE
         HOME_UNSUPPORTED_BROWSER: 'ACHTUNG! Es ist nicht sicher die Nano Wallet mit Ihrem Browser zu verwenden...',
         HOME_RECOMMENDED_BROWSERS: 'Unterstützte Browser:',
+<<<<<<< HEAD
         HOME_FEATURE_STAND_BY: 'Place the cursor on a feature to show information.',
         HOME_FEATURE_1: 'Send and receive XEM easily and almost instantly, only 1 minute block time !',
+=======
+        HOME_FEATURE_STAND_BY: 'Bewegen Sie die Maus auf eine Eigenschaft um Informationen zu sehen',
+        HOME_FEATURE_1: 'Sende und erhalte XEM, einfach und schnell, nur 1 Minute Blockzeit !',
+>>>>>>> add german translation for nano 2.0
 
         // TRANSFER TRANSACTION MODULE
         TRANSFER_TRANSACTION_TITLE: 'Senden & Empfangen',
@@ -181,7 +189,11 @@ function GermanProvider($translateProvider) {
         TRANSFER_TRANSACTION_ATTACH: 'Anhang',
         TRANSFER_TRANSACTION_MOSAICS_ATTACHED: 'Mosaik angehängt',
         TRANSFER_TRANSACTION_ENCRYPT_MESSAGE: 'Nachricht verschlüsseln',
+<<<<<<< HEAD
         TRANSFER_TRANSACTION_MESSAGE_TYPE: 'Message type',
+=======
+        TRANSFER_TRANSACTION_MESSAGE_TYPE: 'Nachrichten Typ',
+>>>>>>> add german translation for nano 2.0
         //TRANSFER_TRANSACTION_HEX_MESSAGE: 'Hex message',
         //TRANSFER_TRANSACTION_ENCRYPT_TOOLTIP: 'Empfänger verfügt noch nicht über einen öffentlichen Schlüssel, hat also noch keine Transaktion im Netzwerk getätigt.',
         //TRANSFER_TRANSACTION_ENCRYPT_TOOLTIP_MULTISIG: 'Die Verschlüsselung von Nachrichten bei Multi-Signatur Konten wird aktuell nicht unterstützt.',
@@ -244,7 +256,11 @@ function GermanProvider($translateProvider) {
         IMPORTANCE_TRANSFER_START_HARVESTING: 'Delegiertes Harvesting starten',
         IMPORTANCE_TRANSFER_STOP_HARVESTING: 'Delegiertes Harvesting beenden',
         IMPORTANCE_TRANSFER_ACTIVATE_DEACTIVATE_REMOTE: 'Activate / Deactivate the delegated account',
+<<<<<<< HEAD
         IMPORTANCE_TRANSFER_SHOW_DELEGATED_KEYS: 'Show delegated account keys', 
+=======
+        IMPORTANCE_TRANSFER_SHOW_DELEGATED_KEYS: 'Zeige Schküssel des delegierten Kontos',
+>>>>>>> add german translation for nano 2.0
 
         // CREATE MOSAIC MODULE
         MOSAIC_DEFINITION_TITLE: 'Mosaik erstellen',
@@ -264,7 +280,7 @@ function GermanProvider($translateProvider) {
         MOSAIC_DEFINITION_LEVY_LIMITATION: 'Einschränkung der UI: Momentan können nur Mosaike als Levy verwendet werden die sich im eigenen Besitz befinden.',
         MOSAIC_DEFINITION_LEVY_SELECT_MOSAIC: 'Levy Mosaik auswählen',
         MOSAIC_DEFINITION_LEVY_ADDRESS: 'Levy Adresse',
-        MOSAIC_DEFINITION_LEVY_FEE_TYPE: 'Gebührentyp',
+        MOSAIC_DEFINITION_LEVY_FEE_TYPE: 'Gebühren-Art',
         MOSAIC_DEFINITION_LEVY_FEE_TYPE_1: 'Absolut',
         MOSAIC_DEFINITION_LEVY_FEE_TYPE_2: 'Prozentual',
         MOSAIC_DEFINITION_LEVY_FEE_TYPE_1_NOTE: 'Absolut -> Konstante Levy:',
@@ -273,6 +289,7 @@ function GermanProvider($translateProvider) {
         MOSAIC_DEFINITION_LEVY_FEE_TYPE_2_NOTE_3: 'beinhaltet einen Levy von',
         MOSAIC_DEFINITION_PARENT: 'Namensraum',
         MOSAIC_DEFINITION_INFORMATION_TITLE: 'Erstellen eines Mosaiks',
+<<<<<<< HEAD
         MOSAIC_DEFINITION_INFORMATION: 'Want more info about mosaics?',
         MOSAIC_DEFINITION_INFORMATION_1: 'The maximum length for a mosaic name is 32 characters. Allowed characters are:',
         MOSAIC_DEFINITION_INFORMATION_2: 'The first character must be a letter from the alphabet.',
@@ -291,6 +308,26 @@ function GermanProvider($translateProvider) {
         MOSAIC_DEFINITION_INFORMATION_15: 'The fee is specified as multiple of the percentile of the quantity that is transferred. The fee is thus linearly increasing with the transferred mosaic quantity.',
         MOSAIC_DEFINITION_INFORMATION_16: 'Sending mosaics on the NEM blockchain requires a fee. The exact fee is calculated depending on their total number and how many are being sent during a transaction. <b>Small business mosaics</b> are given a discounted flat rate of 0.05 XEM per mosaic per transfer.  These are mosaics with a quantity of less than 10,000 and a divisibility of 0.',
         MOSAIC_DEFINITION_INFORMATION_17: 'If you own 100% of the supply, you can overwrite all the mosaic properties by sending a creation transaction again with the same "namespace:mosaic" name.',
+=======
+        MOSAIC_DEFINITION_INFORMATION: 'Wollen Sie mehr Informationen über Mosaike?',
+        MOSAIC_DEFINITION_INFORMATION_1: 'Die maximale Länge für einen Mosaik-Namen sind 32 Zeichen. Erlaubte Zeichen sind:',
+        MOSAIC_DEFINITION_INFORMATION_2: 'Das erse Zeichen muss ein Buchstabe aus dem Alphabet sein.',
+        MOSAIC_DEFINITION_INFORMATION_3: 'Die Beschreibung darf nicht 512 Zeichen überschreiten. Es gibt keine Einschränkungen für die verwendeten Zeichen in der Beschreibung.',
+        MOSAIC_DEFINITION_INFORMATION_4: 'Das Verhalten eines Mosaiks kann mit einer Auswahl von Eigenschaften angepasst werden:',
+        MOSAIC_DEFINITION_INFORMATION_5: 'Der Bestand wird in ganzen Einheiten des Mosaiks angegeben, nicht in Sub-Einheiten. Der initiale Bestand muss im Bereich von  0 und 9,000,000,000 liegen.',
+        MOSAIC_DEFINITION_INFORMATION_6: 'Die Teilbarkeit bestimmt bis zu wievielen dezimalen Stellen das Mosaik geteilt werden kann. Eine Teilbarkeit von 3 bdeutet also, das ein Mosaik auf die kleinste Einheit von 0.001 geteilt werden kann, d.h. Milli Mosaiks ist die kleinste Einheit. Die Teilbarkeit muss im Bereich von 0 bis 6 liegen.',
+        MOSAIC_DEFINITION_INFORMATION_7: 'Wenn angehakt, erlaubt es eine Änderung des Bestands zu einem späteren Zeitpunkt, andererseits ist es unveränderlich.',
+        MOSAIC_DEFINITION_INFORMATION_8: 'Erlaube Überweisung des Mosaiks zwischen anderen Konten als das des Erstellers. Wenn die Eigenschaft \'übertragbar\' nicht angehakt ist, sind nur Überweisungen dieses Mosaiks vom oder zum Ersteller-Konto möglich. Wenn angehakt, kann das Mosaik zu und von jedem Konto überwiesen werden.',
+        MOSAIC_DEFINITION_INFORMATION_9: 'Der Ersteller kann verlangen, das eine spezielle Gebühr vom Sender eingenommen und zu einem Konto seiner Wahl gesendet wird (Der Ersteller kann hier sein eigenes Konto als Empfänger der Gebühren definieren). Die Daten für diese Gebühr sind die folgenden:',
+        MOSAIC_DEFINITION_INFORMATION_10: 'Das Mosaik für welches die Gebühr bezahlt werden muss. Jedes existierende Mosaik kann angegeben werden.',
+        MOSAIC_DEFINITION_INFORMATION_11: 'Der Empfänger der Levy-Gebühr. Das kann ein beliebiges Konto sein.',
+        MOSAIC_DEFINITION_INFORMATION_12: 'Die Höhe der Gebühr. Die Auswertung hängt vom Feld \'Gebühren-Art\'ab, siehe oben.',
+        MOSAIC_DEFINITION_INFORMATION_13: 'Es gibt 2 unterstützte  Gebühren-Arten, absolute Gebühr und prozentuale Gebühr',
+        MOSAIC_DEFINITION_INFORMATION_14: 'Die Gebühr ist festgelegt als absolute Gebühr und ist somit unabhängig von der zu überweisenden Menge.',
+        MOSAIC_DEFINITION_INFORMATION_15: 'Die Gebühr ist festgelegt als ein Vielfaches des Perzentil der Menge die überwiesen wird. Die Gebühr steigt also linear mit der Menge Mosaiks die überwiesen werden.',
+        MOSAIC_DEFINITION_INFORMATION_16: 'Das Senden von Mosaiks auf der NEM Blockchain erfordert eine Gebühr. Die genaue Gebühr wird berechnet, abhängig der Gesamt-Anzahl und wieviele in einer Überweisung gesendet werden <b>Kleinbetrieb Mosaiks</b> werden mit einem Abschlag von 0.05 XEM pro Mosaik und Überweisung berechnet. Das sind Mosaiks mit einer Menge von weniger als 10.000 und einer Teilbarkeit von 0.',
+        MOSAIC_DEFINITION_INFORMATION_17: 'Wenn Sie 100% des Bestands besitzen, können Sie alle Mosaik Eigenschaften überschreiben, indem Sie eine erneute Erstellungs-Überweisung mit dem selben "Namensraum:Mosaik" Namen senden.',
+>>>>>>> add german translation for nano 2.0
 
         // EDIT MOSAIC MODULE
         MOSAIC_SUPPLY_CHANGE_TITLE: 'Bestand des Mosaiks ändern',
@@ -314,9 +351,9 @@ function GermanProvider($translateProvider) {
         NAMESPACE_PROVISION_NS: 'Namensraum',
         NAMESPACE_PROVISION_NS_NAME: 'Name',
         NAMESPACE_PROVISION_RESTRICTIONS: 'Einschränkungen bei der Verwendung von Namensräumen',
-        NAMESPACE_PROVISION_INFORMATION_1: 'Namespaces have certain restrictions with respect to the characters being allowed in the parts as well as the length of a part. A root namespace may have a length of 16 characters while sub-namespaces may have a length of 64 characters. Valid characters are:',
-        NAMESPACE_PROVISION_INFORMATION_2: 'However a part is only allowed to begin with a letter of the alphabet, thus \'alice\' is an allowed part for a root namespace while \'1alice\' is not. Certain strings are reserved and thus not allowed as namespace parts. Among the disallowed namespace parts are:',
-        NAMESPACE_PROVISION_INFORMATION_3: 'This list is not final and can be extended in the future. Thus \'user.alice\' or \'alice.user\' are not allowed in the NEM namespace system. The namespace may have up to 3 parts, thus \'qm.metals.silver\' is valid while \'qm.metals.silver.coin\' is not.',
+        NAMESPACE_PROVISION_INFORMATION_1: 'Namensräume haben bestimmte Einschränkungen in Bezug auf die erlaubten Zeichen in den Teilen als auch die Länge der Bereiche. Ein Root-Namensraum darf eine Länge von 16 Zeichen haben, während Sub-Namensräume eine Länge von 64 Zeichen haben dürfen. Erlaubte Zeichen sind:',
+        NAMESPACE_PROVISION_INFORMATION_2: 'Jedoch darf ein Teil nur mit einem Buchstaben des Alphabets beginnen, also ist \'alice\' ein erlaubter Teil für einen Root-Namensraum, während  \'1alice\' nicht erlaubt ist. Bestimmte Wörter sind reserviert und daher nicht als Namensraum-Teil erlaubt. Die unerlaubten Namensraum-Teile sind:',
+        NAMESPACE_PROVISION_INFORMATION_3: 'Die Liste ist nicht endgültig und kann in Zukunft erweitert werden. Daher sind \'user.alice\' oder \'alice.user\' nicht erlaubt im NEM Namensraum System. Der Namensraum kann bis zu 3 Teile haben, also \'qm.metals.silver\' ist erlaubt, während \'qm.metals.silver.coin\' nicht erlaubt ist.',
 
         // RENEW NAMESPACE MODULE
         RENEW_NS_TITLE: 'Namensraum erneuern',
@@ -449,70 +486,76 @@ function GermanProvider($translateProvider) {
         APOSTILLE_HISTORY_PURGE: 'Beurkundete Daten löschen',
 
         // CREATE APOSTILLE MODULE
-        APOSTILLE_CREATE_TITLE: 'Create apostilles',
-        APOSTILLE_CREATE_HELP: 'Want more info on apostille?',
-        APOSTILLE_TRANSACTION_NAME: 'Apostille transaction',
-        APOSTILLE_TRANSACTION_MULTISIG_NAME: 'Multisignature apostille transaction',
-        APOSTILLE_KEEP_PRIVATE: 'Private, transferable, and updateable',
-        APOSTILLE_USE_DEDICATED: 'Use dedicated account',
-        APOSTILLE_FILES_TO_NOTARIZE: 'Files to notarize',
-        APOSTILLE_REJECTED: 'Rejected',
-        APOSTILLE_FILE_HASH: 'File hash',
-        APOSTILLE_PRIVATE: 'Private',
-        APOSTILLE_FILENAME: 'File name',
-        APOSTILLE_NAME_TOO_LONG: 'File name is too long, 32 characters maximum allowed.',
-        APOSTILLE_MAX_NUMBER: 'Maximum apostilles per batch is 25',
-        APOSTILLE_INFORMATION_TITLE: 'Creating an Apostille',
-        APOSTILLE_INFORMATION_1: 'Each file uploaded is processed automatically with options set on the left panel. You can add new files, change parameters and then add more files with different options. It\'ll also work if you switch to the multisig tab and add more files.',
-        APOSTILLE_INFORMATION_2: '"<b>Private, transferable, and updateable</b>" option means that the hashes of your files are signed with your private key and sent to a dedicated hierarchical deterministic (HD) account. This way it is not possible for anyone but you to know what content has been time stamped unless you share the content.',
-        APOSTILLE_INFORMATION_3: 'The dedicated HD account can be put under a multisig contract so that it may be transferred to others via 1-of-1 or any m-of-n multisig contract combination. It can also have additional information sent to it via messages with updates and augments to the original document or the product it represents.',
+        APOSTILLE_CREATE_TITLE: 'Apostillen erstellen',
+        APOSTILLE_CREATE_HELP: 'Möchten Sie mehr Informationen über Apostillen?',
+        APOSTILLE_TRANSACTION_NAME: 'Apostillen Überweisung',
+        APOSTILLE_TRANSACTION_MULTISIG_NAME: 'Multi-Signatur Apostillen Überweisung',
+        APOSTILLE_KEEP_PRIVATE: 'Privat, übertragbar, und aktualisierbar',
+        APOSTILLE_USE_DEDICATED: 'Benutze dediziertes Konto',
+        APOSTILLE_FILES_TO_NOTARIZE: 'Zu beurkundende Dateien',
+        APOSTILLE_REJECTED: 'Zurückgewiesen',
+        APOSTILLE_FILE_HASH: 'Datei hash',
+        APOSTILLE_PRIVATE: 'Privat',
+        APOSTILLE_FILENAME: 'Dateiname',
+        APOSTILLE_NAME_TOO_LONG: 'Der Dateiname ist zu lang, 32 Zeichen sind maximal erlaubt.',
+        APOSTILLE_MAX_NUMBER: 'Maximale Apostillen pro Ladung sind 25',
+        APOSTILLE_INFORMATION_TITLE: 'Eine Apostille erstellen',
+        APOSTILLE_INFORMATION_1: 'Jede hochgeladene Datei Each wird automatisch mit den Optionen auf dem linken Feld verarbeitet. Sie können neue Dateien hinzufügen, Parameter verändern und dann mehr Dateien mit verschiedenen Optionen hinzufügen. Es funktioniert auch wenn Sie auf den Multi-Signatur Reiter wechseln und mehr Dateien hinzufügen.',
+        APOSTILLE_INFORMATION_2: '"<b>Privat, übertragbar, und aktualisierbar</b>" Option bedeutet das die Hashes ihrer Dateien mit ihrem privaten Schlüssel signiert sind und zu einem dedizierten hierarchisch deterministischen Konto (HD-Konto) gesendet werden. Auf diese Weise ist es unmöglich für jemanden außer Ihnen, zu wissen welcher Inhalt geändert wurde solange Sie den Inhalt nicht veröffentlicht haben.',
+        APOSTILLE_INFORMATION_3: 'Des dedizierte HD-Konto kann in ein Multi-Signatur Vertrag geschrieben werden, sodass es zu anderen übertragen wird über 1-zu-1 oder jede m-von-n Multi-Signatur Vertrags-Kombination. Es können auch zusätzliche Informationen hin gesendet werden über Nachrichten mit Aktualisierungen und Erweiterungen zum originalen Dokument oder dem Produkt für das es steht.',
         APOSTILLE_INFORMATION_4: 'When two or more parties want to both approve of a blockchain timestamp, e.g. binding contracts, the account making the blockchain notarization can be put in an n-of-n multisig contract.',
-        APOSTILLE_INFORMATION_5: 'For accounts in a multisignature contract that have selected "<b>Private, transferable, and updateable</b>", the initiating cosigner\'s private key is used to sign the hash and create a dedicated HD account, not the account that was multisigged.',
-        APOSTILLE_INFORMATION_6: 'The HD account is a dedicated account generated from a hash of the filename that is then signed by your private key. This resulting hash of this process is then used to form a second private key.  This is the time-stamped file\'s private key; a first in blockchain technology only found in Apostille.',
-        APOSTILLE_INFORMATION_7: 'The dedicated HD account allows you to store the original file\'s signed hash and its updates on a dedicated account. If <b>"Public"</b> is selected, the transaction goes to the public sink address (default).',
-        APOSTILLE_INFORMATION_8: 'After the transactions are sent the download of an archive is triggered. It contains your signed files, your Apostille certificate for that file, and the new or updated .nty file to keep track of every file you time stamped on the NEM chain.',
-        APOSTILLE_NO_NTY: 'No nty file loaded, please click here to import one or a new will be created automatically.',
-        APOSTILLE_IMPORT_FILES: 'Import files',
-        APOSTILLE_CREATE_TEXT: 'Create text document',
-        APOSTILLE_ENTER_TEXT: 'Enter text to notarize...',
-        APOSTILLE_DOCUMENT_TITLE: 'Document title',
-        APOSTILLE_DROPBOX_MESSAGE: 'Please enter your password and desired tag(s) before selecting files',
-        APOSTILLE_DROPBOX_MESSAGE_2: 'Please enter your password before selecting files',
+        APOSTILLE_INFORMATION_5: 'Für Konten in einem Multi-Signatur Vertrag die "<b>Privat, übertragbar, und aktualisierbar</b>" ausgewählt haben, wird der private Schlüssel des initiierenden Mitunterzeichners benutzt um den Hash zu signieren und ein HD-Konto erstellt, nicht das Konto das multi-signiert wurde.',
+        APOSTILLE_INFORMATION_6: 'Das HD-Konto ist ein dediziertes Konto das von dem Hash des Dateinamen generiert wird, welches dann mit ihrem privaten Schlüssel signiert wird. Der resultierende Hash aus diesem Prozess wird dann benutzt um einen zweiten privaten Schlüssel zu erstellen. Das ist der private Schlüssel für die Zeitstempel; eine einzigartige Technologie in Blockchains, nur unter Apostille.',
+        APOSTILLE_INFORMATION_7: 'Das HD-Konto erlaubt es Ihnen den originalen signierten Datei-Hash und dessen Aktualisierungen auf einem dedizierten Konto zu speichern. Wenn <b>"Öffentlich"</b> ausgewählt ist, geht die Überweisung zur öffentlichen Senke (Standard).',
+        APOSTILLE_INFORMATION_8: 'Nachdem die Überweisungen gesendet wurden wird das Herunterladen eines Archivs angestoßen. Es beinhaltet ihre signierten Dateien, ihre Apostillen-Zertifikate für diese Datei, und die neue oder aktualisierte .nty Datei um den Überblick über jede Datei die Sie auf der NEM Blockchain zeitgestempelt haben zu behalten.',
+        APOSTILLE_NO_NTY: 'Keine nty Datei geladen, klicken Sie bitte hier um eine zu importieren oder es wird automatisch eine neue erstellt.',
+        APOSTILLE_IMPORT_FILES: 'Importiere Dateien',
+        APOSTILLE_CREATE_TEXT: 'Erstelle Text-Dokument',
+        APOSTILLE_ENTER_TEXT: 'Text eingeben zum beurkunden...',
+        APOSTILLE_DOCUMENT_TITLE: 'Dokumenten-Titel',
+        APOSTILLE_DROPBOX_MESSAGE: 'Bitte geben Sie ihr Passwort und die gewünschten Tags ein, bevor Sie die Dateien auswählen',
+        APOSTILLE_DROPBOX_MESSAGE_2: 'Bitte geben Sie ihr Passwort ein, bevor Sie die Dateien auswählen',
 
         // AUDIT APOSTILLE MODULE
-        APOSTILLE_AUDIT_TITLE: 'Audit apostilles',
-        APOSTILLE_AUDIT_CHOOSE_NODE: 'Choose a node',
-        APOSTILLE_AUDIT_CHOOSE_NODE_NOTE: 'Only a few nodes are able to search into the whole transaction history (option is disabled by default in NIS).', //
-        APOSTILLE_AUDIT_WRONG_FORMAT: 'This file is not in apostille format !',
-        APOSTILLE_AUDIT_FAIL_NO_PUBLIC_KEY: 'Verification failed, owner has no public key !',
-        APOSTILLE_AUDIT_SUCCESS: 'File successfully audited !',
-        APOSTILLE_AUDIT_FAIL: 'Verification failed !',
-        APOSTILLE_AUDIT_WAITING: 'Apostille transfer might be waiting for confirmation !',
-        APOSTILLE_AUDIT_NOT_FOUND: 'Transaction not found, make sure it is not waiting for confirmations otherwise apostille is invalid',
-        APOSTILLE_AUDIT_ERROR_UNCONFIRMED: 'An error occurred while fetching unconfirmed data but transaction was not found',
-        APOSTILLE_AUDIT_ERROR_SIGNER: 'An error occured while fetching signer data',
-        APOSTILLE_AUDIT_ERROR_SIGNATURE: 'Verification failed, an error occured at signature verification !',
-        APOSTILLE_AUDIT_INFORMATION_1: 'Files that can be audited must be in <b>apostille format</b>',
-        APOSTILLE_AUDIT_INFORMATION_2: 'You can recognize those by the filename:',
+        APOSTILLE_AUDIT_TITLE: 'Aapostillen Überprüfung',
+        APOSTILLE_AUDIT_CHOOSE_NODE: 'Wählen Sie einen Knoten',
+        APOSTILLE_AUDIT_CHOOSE_NODE_NOTE: 'Nur ein paar wenige Knoten sind im Stande in die gesamte Überweisungs-Historie zu schauen (Option ist auf dem NIS standardmäßig deaktiviert).', //
+        APOSTILLE_AUDIT_WRONG_FORMAT: 'Die Datei ist nicht im Apostillen-Format !',
+        APOSTILLE_AUDIT_FAIL_NO_PUBLIC_KEY: 'Überprüfung fehlgeschlagen, Besitzer hat keinen öffentlichen Schlüssel !',
+        APOSTILLE_AUDIT_SUCCESS: 'Datei erfolgreich auditiert !',
+        APOSTILLE_AUDIT_FAIL: 'Überprüfung fehlgeschlagen !',
+        APOSTILLE_AUDIT_WAITING: 'Apostillen Überweisung wartet auf Bestätigung !',
+        APOSTILLE_AUDIT_NOT_FOUND: 'Überweisung nicht gefunden, stellen Sie sicher das es nicht auf Bestätigungen wartet, andernfalls ist die Apostille ungültig',
+        APOSTILLE_AUDIT_ERROR_UNCONFIRMED: 'Ein Fehler ist aufgetreten beim abholen der unbestätigten Daten aber die Überweisung wurde nicht gefunden',
+        APOSTILLE_AUDIT_ERROR_SIGNER: 'Ein Fehler ist aufgetreten beim abholen von Signierer-Daten',
+        APOSTILLE_AUDIT_ERROR_SIGNATURE: 'Überprüfung fehlgeschlagen, ein Fehler trat auf bei der Signatur Überprüfung !',
+        APOSTILLE_AUDIT_INFORMATION_1: 'Dateien die auditiert werden können müssen im <b>Apostillen Format</b> sein',
+        APOSTILLE_AUDIT_INFORMATION_2: 'Sie können diese am Dateinamen erkennen:',
         //APOSTILLE_AUDIT_NON_SIGNED: 'Non signed exemple:',
         //APOSTILLE_AUDIT_SIGNED: 'Signed exemple:',
+<<<<<<< HEAD
         APOSTILLE_AUDIT_FILES: 'Audit files',
         APOSTILLE_AUDIT_FORMAT_EXAMPLE: 'Apostille format example',
         APOSTILLE_AUDIT_REMOVE_RECORDS: 'Remove records locally',
+=======
+        APOSTILLE_AUDIT_FILES: 'Audit Dateien',
+        APOSTILLE_AUDIT_FORMAT_EXAMPLE: 'Apostillen Format Beispiel',
+        APOSTILLE_AUDIT_REMOVE_RECORDS: 'Entferne Datensätze lokal',
+>>>>>>> add german translation for nano 2.0
 
         // APOSTILLE MESSAGE MODULE
-        APOSTILLE_MESSAGE_TITLE: 'Send message to notarization account',
-        APOSTILLE_MESSAGE_NS_BRAND: 'Use my namespace to brand message',
-        APOSTILLE_MESSAGE_ADD_MOSAIC: 'Add mosaic',
-        APOSTILLE_NTY_ACCOUNT: 'Notarization account',
-        APOSTILLE_REQUEST_MESSAGE: 'Request message',
-        APOSTILLE_CREATE_MESSAGE_REQUEST: 'Create a message request',
+        APOSTILLE_MESSAGE_TITLE: 'Sende Nachricht an Notar-Konto',
+        APOSTILLE_MESSAGE_NS_BRAND: 'Benutze meinen Namensraum um die Nachricht zu stempeln',
+        APOSTILLE_MESSAGE_ADD_MOSAIC: 'Mosaik hinzufügen',
+        APOSTILLE_NTY_ACCOUNT: 'Notar-Konto',
+        APOSTILLE_REQUEST_MESSAGE: 'Nachricht anfordern',
+        APOSTILLE_CREATE_MESSAGE_REQUEST: 'Erstelle eine Nachrichten-Anfrage',
 
         // TRANSFER APOSTILLE OWNLERSHIP MODULE
-        APOSTILLE_TRANSFER_TITLE: 'Transfer or Split apostille ownership',
+        APOSTILLE_TRANSFER_TITLE: 'Übertrage oder splitte Apostillen Eigentum',
 
         // UPADTE APOSTILLE MODULE
-        APOSTILLE_UPDATE_TITLE: 'Update apostille',
+        APOSTILLE_UPDATE_TITLE: 'Apostille aktualisieren',
 
         // ERROR ALERTS
         ALERT_MISSING_FORM_DATA: 'Bitte das Formular vollständig ausfüllen !',
@@ -575,6 +618,7 @@ function GermanProvider($translateProvider) {
         ALERT_BTC_MARKET_ERROR: 'Fehler beim Abrufen des Bitcoin Preises',
         ALERT_COSIG_REMOVAL_LIMIT: 'Es kann jeweils nur ein Mitunterzeichner gleichzeitig entfernt werden',
         ALERT_MULTISIG_MIN_SIGNATURE_INVALID: 'Ungültige minimale Anzahl von Signaturen',
+<<<<<<< HEAD
         ALERT_INSUFFICIENT_BALANCE: 'Insufficient Balance for performing the operation',
         ALERT_VOTING_ERROR: 'Invalid Vote',
         ALERT_BRAIN_PASSWORD_TOO_SHORT: 'Brain wallet passphrase must be at least 40 characters!',
@@ -588,22 +632,42 @@ function GermanProvider($translateProvider) {
         ALERT_MAX_MOSAIC_SUPPLY: 'Maximum mosaic supply is 9\'000\'000\'000',
         ALERT_GET_MOSAIC_SUPPLY_ERROR: 'Error at fetching mosaic supply, reason: ',
         ALERT_ENCRYPTED_MSG_OFFLINE: 'Encrypted messaging is not enabled in offline transactions',
+=======
+        ALERT_INSUFFICIENT_BALANCE: 'Unzureichendes Saldo um die Operation durchzuführen',
+        ALERT_VOTING_ERROR: 'Ungültige Stimme',
+        ALERT_BRAIN_PASSWORD_TOO_SHORT: 'Brain walleit Passphrase muss mindestens 40 Zeichen lang sein!',
+        ALERT_NODE_SEEMS_OFFLINE: 'Knoten scheint offline zu sein, bitte wählen Sie einen anderen.',
+        ALERT_WEAK_PASSPHRASE: 'Sicherheits-Wertung der Passphrase muss mindestens 3 betragen',
+        ALERT_BRAIN_WALLET_UPGRADE: 'Ihre Brain wallet scheint verwundbar zu sein ! Alle Brain wallets müssen eine Passphrase mit mindestens 40 Zeichen haben.<br> Wir raten Ihnen eine neue wallet zu erstellen auf der Registrierungs-Seite und ihre Guthaben dorthin zu transferieren.<br> Mehr Informationen <a href="https://forum.nem.io/t/2791" target="_blank"><u>hier</u></a>.',
+        ALERT_RECIPIENT_PUBLIC_KEY: 'Empfänger hat keinen sichtbaren öffentlichen Schlüssel Netzwerk',
+        ALERT_ENCRYPT_MULTISIG: 'Kann keine verschlüsselte Nachrichten über Mutltisignatur-Konten versenden',
+        ALERT_EXCHANGE_NEEDS_MESSAGE: 'Empfänger ist eine Exchange wallet und benötigt daher eine Nachricht um ihr Konto korrekt zuweisen zu können, lesen Sie bitte die Exchange Einzahlungs-Anweisungen gründlich!',
+        ALERT_ACCOUNT_ALREADY_IN_ADDRESS_BOOK: 'Kontakr ist bereits im Adressbuch vorhanden!',
+        ALERT_MAX_MOSAIC_SUPPLY: 'Maximaler Mosaik Bestand ist 9\'000\'000\'000',
+        ALERT_GET_MOSAIC_SUPPLY_ERROR: 'Fehler beim abhoen des Mosaik Bestands, Grund: ',
+>>>>>>> add german translation for nano 2.0
 
         // SUCCESS ALERTS
-        ALERT_CREATE_WALLET_SUCCESS: 'Die Wallet wurde erfolgreich Erstellt und geladen !',
-        ALERT_SUCCESS_PURGE: 'Lokalen Speicher erfolgreich gelöscht !',
+        ALERT_CREATE_WALLET_SUCCESS: 'Die Wallet wurde erfolgreich erstellt und geladen !',
+        ALERT_SUCCESS_PURGE: 'Lokaler Speicher erfolgreich gelöscht !',
         ALERT_SUCCESS_LOGOUT: 'Erfolgreich abgemeldet !',
         ALERT_LOAD_WALLET_SUCCESS: 'Wallet erfolgreich geladen !',
         ALERT_TRANSACTION_SUCCESS: 'Transaktion erfolgreich versendet !',
-        ALERT_GENERATE_ACCOUNT_SUCCESS: 'Konto erfolgreich Erstellt. Nicht vergessen die aktualisierte Wallet herunterzuladen !',
-        ALERT_UPGRADE_SUCCESS: 'Wallet erfolgreich Aktualisiert !',
-        ALERT_SIGNATURE_SUCCESS: 'Transaktion erfolgreich Signiert !',
+        ALERT_GENERATE_ACCOUNT_SUCCESS: 'Konto erfolgreich erstellt. Nicht vergessen die aktualisierte Wallet herunterzuladen !',
+        ALERT_UPGRADE_SUCCESS: 'Wallet erfolgreich aktualisiert !',
+        ALERT_SIGNATURE_SUCCESS: 'Transaktion erfolgreich signiert !',
         ALERT_NTY_FILE_SUCCESS: 'Öffnen der nty Datei war erfolgreich !',
         ALERT_INCOMING_TX_FROM: 'Eingehende Transaktion von ',
+<<<<<<< HEAD
         ALERT_ADDRESS_BOOK_FILE_SUCCESS: 'Adressbuch erfolgreich Importiert !',
         ALERT_VOTING_SUCCESS: 'Vote Sent Successfully',
         ALERT_POLL_CREATION_SUCCESS: 'Poll Created Successfully',
         ALERT_COPY_SIGNED_TX_SUCCESS: 'Signed transaction copied!',
+=======
+        ALERT_ADDRESS_BOOK_FILE_SUCCESS: 'Adressbuch erfolgreich importiert !',
+        ALERT_VOTING_SUCCESS: 'Abstimmung erfolgreich gesendet',
+        ALERT_POLL_CREATION_SUCCESS: 'Umfrage erfolgreich erstellt',
+>>>>>>> add german translation for nano 2.0
 
         // CONVERT ACCOUNT TO MULTISIG
         AGGREGATE_MODIFICATION_TITLE: 'Ein Konto in ein Multi-Signatur Konto umwandeln',
@@ -632,8 +696,13 @@ function GermanProvider($translateProvider) {
         AGGREGATE_SELECTED_ACCOUNT_INFO: 'Kontoinformationen anpassen',
         AGGREGATE_MIN_SIGNATURES: 'Minimum Signaturen',
         AGGREGATE_SELECT_WALLET_ACCOUNT: 'Konto der Wallet benutzen',
+<<<<<<< HEAD
         AGGREGATE_ADD_COSIG: 'Add cosignatory',
         AGGREGATE_REMOVE_COSIG: 'Remove cosignatory',
+=======
+        AGGREGATE_ADD_COSIG: 'Mitunterzeichner hinzufügen',
+        AGGREGATE_REMOVE_COSIG: 'Mitunterzeichner entfernen',
+>>>>>>> add german translation for nano 2.0
 
         // SIGN MULTISIGNATURE TRANSACTIONS
         SIGN_MULTISIG_TRANSACTIONS_TITLE: 'Multi-Signatur Transaktion signieren',
@@ -647,7 +716,11 @@ function GermanProvider($translateProvider) {
         LOGIN_SELECT_WALLET_YOURS: 'Wallet auswählen',
         LOGIN_SELECT_WALLET: 'Eine Wallet im lokalen Speicher auswählen',
         LOGIN_LOGIN_BUTTON: 'Anmelden',
+<<<<<<< HEAD
         LOGIN_NOTE: 'No wallet? Import one or <a href="#!/signup">signup</a>.',
+=======
+        LOGIN_NOTE: 'Keine wallet? Eine Wallet importieren oder <a href="#!/anmelden"></a>.',
+>>>>>>> add german translation for nano 2.0
 
         // SIGNUP MODULE
         SIGNUP_TITLE: 'Der NEM Community beitreten !',
@@ -670,7 +743,10 @@ function GermanProvider($translateProvider) {
         SIGNUP_BRAIN_WALLET_WARNING: 'Bitte informieren Sie sich über die <a href="https://en.bitcoin.it/wiki/Brainwallet" rel="nofollow" target="_blank">Risiken</a> die von einer Brain Wallets ausgehen können. Brain Wallets benutzen NUR eine Passphrase, welche mehrfach gehasht wurde. Es ist daher unbedingt Erforderlich, dass Sie eine SICHERE Passphrase mit mindestens 40 Zeichen verwenden. <a href="https://xkcd.com/936/" rel="nofollow" target="_blank">XKCD #936</a>',
         SIGNUP_PRIVATE_KEY_WALLET_WARNING: 'Wallets, welche aus einem importierten privaten Schlüssel erzeugt werden, benutzen NUR das Passwort um den privaten Schlüssel vor unberechtigten Zugriffen zu schützen. Es ist daher unbedingt Erforderlich ein SICHERES Passwort auszuwählen.',
         SIGNUP_CREATE_START_WARNING: 'Please, follow each step carefully!',
+<<<<<<< HEAD
         SIGNUP_CREATE_START_CONNECTION_WARNING: 'It is recommended to disconnect from internet while creating your wallet and backing up your data.',
+=======
+>>>>>>> add german translation for nano 2.0
         SIGNUP_CREATE_READY_BTN: 'Ready',
         SIGNUP_CREATE_ENTER_NAME: 'Enter a wallet name',
         SIGNUP_CREATE_ENTER_PASSWORD: 'Enter a password',
@@ -703,19 +779,20 @@ function GermanProvider($translateProvider) {
         // FAQ MODULE
         FAQ_TITLE: 'Häufig gestellte Fragen',
         FAQ_QUESTION_1: 'Wie funktioniert die NanoWallet ?',
-        FAQ_ANSWER_1: 'Nano Wallet is built using the latest crypto libraries with ES6 and AngularJS. It is a full client-side application that never sends any sensitive data through the wire; everything happens in your browser from creating private keys to the signing of transactions.',
+        FAQ_ANSWER_1: 'Nano Wallet ist entwickelt mit den aktuellsten Krypto-Bibliotheken mit ES6 und AngularJS. Es ist eine komplett clientseitige Applikation die niemals sensible Daten über die Leitung verschickt; alles geschieht in ihrem Browser, vom Erstellen der privaten Schlüssel bis zum Signieren von Transaktionen',
         FAQ_QUESTION_2: 'Ist die Nutzung kostenlos ?',
-        FAQ_ANSWER_2: 'Alle Aktionen der NanoWallet werden Clientseitig durchgeführt. Es werden keine Dienste von Drittanbietern genutzt. Dadurch ist die Werwendung der NanoWallet kostenlos.',
+        FAQ_ANSWER_2: 'Alle Aktionen der NanoWallet werden clientseitig durchgeführt. Es werden keine Dienste von Drittanbietern genutzt. Dadurch ist die Werwendung der NanoWallet kostenlos.',
         FAQ_QUESTION_3: 'Wieso befindet sich bereits ein Mosaik in meinem Besitz ?',
-        FAQ_ANSWER_3: 'Because XEM is the default currency of the NEM blockchain, every user already has it registered to their wallet, even if their balance is 0. Its namespace is NEM and the mosaic name is XEM',
+        FAQ_ANSWER_3: 'Weil XEM die Standard Währung der NEM blockchain ist, hat Sie jeder Benutzer schon in der wallet registriert, auch wenn der Bestand 0 ist. Dessen Namensraum ist NEM und der Mosaik Name ist XEM',
         FAQ_QUESTION_4: 'Gibt es eine Roadmap ?',
-        FAQ_ANSWER_4: 'The current roadmap includes integration of all NEM client features and completion of community funded projects to work across this wallet.',
+        FAQ_ANSWER_4: 'Die aktuelle Roadmap beinhaltet die Integration aller NEM client Eigenschaften und die Fertigstellung der Community finanzierten Projekte um mit dieser wallet zu funktionieren.',
         FAQ_QUESTION_5: 'Werden irgendwo XEM verschenkt ?',
-        FAQ_ANSWER_5: 'The NEM faucet is currently down, but you can consult the NEM forum to know about the available bounties.',
+        FAQ_ANSWER_5: 'Der NEM faucet ist aktuell inaktiv, aber Sie können das NEM Forum über verfügbare Prämien befragen.',
         FAQ_QUESTION_6: 'Wo kann ich mehr Informationen über NEM finden ?',
         FAQ_ANSWER_6_FORUM: 'Offizielles Forum',
         FAQ_ANSWER_6_WEBSITE: 'Offizielle Webseite',
         FAQ_ANSWER_6_BTT: 'Offizieller BitcoinTalk Thread',
+<<<<<<< HEAD
         FAQ_QUESTION_7: 'Nothing is shown on the dashboard',
         FAQ_ANSWER_7: 'Please be sure to check the node circle in the top navigation bar. <br> Red circle means that connection to the node failed. <br> Click on "Node" and select another one from the dropdown list or use a custom node. <br> <a href="https://supernodes.nem.io" target="_blank">Supernodes.nem.io</a> has a lot of nodes that you can use.</a>',
         FAQ_QUESTION_8: 'Cosignatories cannot see the transaction to sign',
@@ -734,6 +811,14 @@ function GermanProvider($translateProvider) {
         FAQ_ANSWER_12_2: 'Look at the chain height and compare it to the height shown <a target="_blank" href="http://bigalice3.nem.ninja:7890/chain/height">here</a>.',
         FAQ_ANSWER_12_3: 'If different of more than 5 blocks then you are probably on a fork.',
         FAQ_ANSWER_12_4: 'To fix, just choose another node from the dropdown in the node panel, it will restore your account at it\'s latest state on the real network.',
+=======
+        FAQ_QUESTION_7: 'Auf dem Dashboard wird nichts angezeigt',
+        FAQ_ANSWER_7: 'Überprüfen Sie den  Knoten-Kreis in der oberen Navigationsleiste. <br> Roter Kreis bedeutet, das die Verbindung zum Knoten fehlgeschlagen ist. <br> Klicken Sie auf "Knoten" und wählen Sie einen anderen aus der Liste oder benutzen Sie einen individuellen Knoten. <br> <a href="https://supernodes.nem.io" target="_blank">Supernodes.nem.io</a> hat eine Menge Knoten die Sie verwenden können.</a>',
+        FAQ_QUESTION_8: 'Mitunterzeichner können die Transaktion zum Signieren nicht sehen',
+        FAQ_ANSWER_8: 'Gehen Sie in diesem Fall auf "Services", schauen Sie nach "Multisignatur und Multi-User Konten" und klicken auf "Signiere Multisignatur Transaktionen".',
+        FAQ_QUESTION_9: 'Was sind die besten Sicherheits Praktiken ?',
+        FAQ_ANSWER_9: 'Es ist äußerst empfohlen die privaten Schlüssel immer auf Papier zu sichern.<br> Sie können diese ausdrucken und an einem sicheren Ort aufbewahren. <br><br> Bezüglich wallet Dateien sollten Sie immer mehrere Kopien an verschiedenen Orten aufbewahren, wie beispielsweise einem USB-stick. <br> Passwörter müssen immer einzigartig und komplex sein, aus diesem Grunds sollten Sie diesen immer zuerst aufschreiben. <br><br> Wenn Sie ihre wallet prüfen oder Aktionen durchführen wollen:<br> - Stecken Sie den USB-stick ein <br> - Importieren Sie die wallet in Nano<br> - Ziehen Sie den USB-stick ab.<br><br> Eine Kopie ihrer wallet ist im lokalen Browser Speicher gespeichert solange sie es brauchen.<br> Sobald Sie fertig sind, loggen Sie sich aus und löschen die wallet im lokalen Speicher indem Sie den Löschen-Knopf auf der rechten unteren Seite der Fußzeile verwenden.',
+>>>>>>> add german translation for nano 2.0
 
         // FORM RELATED
         FORM_PASSWORD_FIELD_PLACEHOLDER: 'Wallet Passwort oder Passphrase eingeben',
@@ -758,6 +843,7 @@ function GermanProvider($translateProvider) {
         FORM_MESSAGE_PLACEHOLDER: 'Nachricht',
         FORM_MOSAIC_NAME_PLACEHOLDER: 'Name des Mosaik',
         FORM_ADDRESS_ALIAS_PLACEHOLDER: 'Kontoadresse oder @alias',
+<<<<<<< HEAD
         FORM_BTN_GET_ALIAS: 'Get alias address',
         FORM_BTN_OPEN_ADB: 'Open address book',
         FORM_SELECT_NAMESPACE: 'Select a namespace',
@@ -794,6 +880,23 @@ function GermanProvider($translateProvider) {
 
         // INVOICE MODULE
         CREATE_INVOICE_TITLE: 'Create an invoice'
+=======
+        FORM_BTN_GET_ALIAS: 'Hole Alias Adresse',
+        FORM_BTN_OPEN_ADB: 'Öffne Adressbuch',
+        FORM_SELECT_NAMESPACE: 'Wählen Sie einen Namensraum',
+
+        // VOTING MODULE
+        PORTAL_VOTING_TITLE: 'Voting',
+        PORTAL_VOTING_TEXT: 'Erstellen Sie und nehmen Sie Teil an Umfragen',
+        PORTAL_VOTING_BTN1: 'Zeige Umfragen',
+        PORTAL_VOTING_BTN2: 'Erstelle Umfrage',
+        FORM_TITLE_FIELD_PLACEHOLDER: 'Titel',
+        FORM_DESCRIPTION_FIELD_PLACEHOLDER: 'Geben Sie hier ihre Beschreibung ein',
+        FORM_OPTION_FIELD_PLACEHOLDER: 'Schreib-Option',
+        FORM_WHITELIST_FIELD_PLACEHOLDER: 'Konto-Adresse',
+        FORM_SELECT_MULTISIG: 'Wählen Sie ein Multisignatur-Konto',
+        FORM_SELECT_CONTACT: 'Wählen Sie einen Kontakt'
+>>>>>>> add german translation for nano 2.0
     });
 
 }
