@@ -161,22 +161,14 @@ function GermanProvider($translateProvider) {
         GENERAL_ENCRYPTED: 'Encrypted',
         GENERAL_UNENCRYPTED: 'Unencrypted',
         GENERAL_HEXADECIMAL: 'Hexadecimal',
-<<<<<<< HEAD
         GENERAL_SELECT_ACCOUNT: 'Select account',
         GENERAL_INVOICE: 'Invoice',
-=======
->>>>>>> add german translation for nano 2.0
 
         // HOME MODULE
         HOME_UNSUPPORTED_BROWSER: 'ACHTUNG! Es ist nicht sicher die Nano Wallet mit Ihrem Browser zu verwenden...',
         HOME_RECOMMENDED_BROWSERS: 'Unterstützte Browser:',
-<<<<<<< HEAD
-        HOME_FEATURE_STAND_BY: 'Place the cursor on a feature to show information.',
-        HOME_FEATURE_1: 'Send and receive XEM easily and almost instantly, only 1 minute block time !',
-=======
         HOME_FEATURE_STAND_BY: 'Bewegen Sie die Maus auf eine Eigenschaft um Informationen zu sehen',
         HOME_FEATURE_1: 'Sende und erhalte XEM, einfach und schnell, nur 1 Minute Blockzeit !',
->>>>>>> add german translation for nano 2.0
 
         // TRANSFER TRANSACTION MODULE
         TRANSFER_TRANSACTION_TITLE: 'Senden & Empfangen',
@@ -189,11 +181,7 @@ function GermanProvider($translateProvider) {
         TRANSFER_TRANSACTION_ATTACH: 'Anhang',
         TRANSFER_TRANSACTION_MOSAICS_ATTACHED: 'Mosaik angehängt',
         TRANSFER_TRANSACTION_ENCRYPT_MESSAGE: 'Nachricht verschlüsseln',
-<<<<<<< HEAD
-        TRANSFER_TRANSACTION_MESSAGE_TYPE: 'Message type',
-=======
         TRANSFER_TRANSACTION_MESSAGE_TYPE: 'Nachrichten Typ',
->>>>>>> add german translation for nano 2.0
         //TRANSFER_TRANSACTION_HEX_MESSAGE: 'Hex message',
         //TRANSFER_TRANSACTION_ENCRYPT_TOOLTIP: 'Empfänger verfügt noch nicht über einen öffentlichen Schlüssel, hat also noch keine Transaktion im Netzwerk getätigt.',
         //TRANSFER_TRANSACTION_ENCRYPT_TOOLTIP_MULTISIG: 'Die Verschlüsselung von Nachrichten bei Multi-Signatur Konten wird aktuell nicht unterstützt.',
@@ -256,11 +244,7 @@ function GermanProvider($translateProvider) {
         IMPORTANCE_TRANSFER_START_HARVESTING: 'Delegiertes Harvesting starten',
         IMPORTANCE_TRANSFER_STOP_HARVESTING: 'Delegiertes Harvesting beenden',
         IMPORTANCE_TRANSFER_ACTIVATE_DEACTIVATE_REMOTE: 'Activate / Deactivate the delegated account',
-<<<<<<< HEAD
-        IMPORTANCE_TRANSFER_SHOW_DELEGATED_KEYS: 'Show delegated account keys', 
-=======
-        IMPORTANCE_TRANSFER_SHOW_DELEGATED_KEYS: 'Zeige Schküssel des delegierten Kontos',
->>>>>>> add german translation for nano 2.0
+        IMPORTANCE_TRANSFER_SHOW_DELEGATED_KEYS: 'Zeige Schlüssel des delegierten Kontos',
 
         // CREATE MOSAIC MODULE
         MOSAIC_DEFINITION_TITLE: 'Mosaik erstellen',
@@ -289,26 +273,6 @@ function GermanProvider($translateProvider) {
         MOSAIC_DEFINITION_LEVY_FEE_TYPE_2_NOTE_3: 'beinhaltet einen Levy von',
         MOSAIC_DEFINITION_PARENT: 'Namensraum',
         MOSAIC_DEFINITION_INFORMATION_TITLE: 'Erstellen eines Mosaiks',
-<<<<<<< HEAD
-        MOSAIC_DEFINITION_INFORMATION: 'Want more info about mosaics?',
-        MOSAIC_DEFINITION_INFORMATION_1: 'The maximum length for a mosaic name is 32 characters. Allowed characters are:',
-        MOSAIC_DEFINITION_INFORMATION_2: 'The first character must be a letter from the alphabet.',
-        MOSAIC_DEFINITION_INFORMATION_3: 'The description may not exceed a length of 512 characters. There is no limitation for the characters used in the description.',
-        MOSAIC_DEFINITION_INFORMATION_4: 'The behavior of a mosaic can be customized by a set of properties:',
-        MOSAIC_DEFINITION_INFORMATION_5: 'The supply is given in entire units of the mosaic, not in smallest sub-units. The initial supply must be in the range of 0 and 9,000,000,000.',
-        MOSAIC_DEFINITION_INFORMATION_6: 'The divisibility determines up to what decimal place the mosaic can be divided into. Thus a divisibility of 3 means that a mosaic can be divided into smallest parts of 0.001 mosaics, i.e. milli mosaics is the smallest sub-unit. The divisibility must be in the range of 0 and 6.',
-        MOSAIC_DEFINITION_INFORMATION_7: 'If checked, it allows a mosaic supply change at a later point, otherwise supply is immutable.',
-        MOSAIC_DEFINITION_INFORMATION_8: 'Allow transfers of the mosaic among accounts other than the creator. If the property \'transferable\' is not checked, only transfer transactions having the creator as sender or as recipient can transfer mosaics of that type. If checked the mosaics can be transferred to and from arbitrary accounts.',
-        MOSAIC_DEFINITION_INFORMATION_9: 'The creator can demand that a special fee is collected from the sender and sent to an account of his choice (thus the creator can specify his own account as recipient of this fee). The data for the levy is the following:',
-        MOSAIC_DEFINITION_INFORMATION_10: 'The mosaic in which the fee has to be paid. Any existing mosaic can be specified.',
-        MOSAIC_DEFINITION_INFORMATION_11: 'The recipient of the levy. This can be any account.',
-        MOSAIC_DEFINITION_INFORMATION_12: 'The fee quantity. The interpretation is dependent on the field \'fee type\', see above.',
-        MOSAIC_DEFINITION_INFORMATION_13: 'There are two fee types supported, absolute fee and percentile fee.',
-        MOSAIC_DEFINITION_INFORMATION_14: 'The fee is specified as absolute quantity and thus does not depend on the quantity that is transferred.',
-        MOSAIC_DEFINITION_INFORMATION_15: 'The fee is specified as multiple of the percentile of the quantity that is transferred. The fee is thus linearly increasing with the transferred mosaic quantity.',
-        MOSAIC_DEFINITION_INFORMATION_16: 'Sending mosaics on the NEM blockchain requires a fee. The exact fee is calculated depending on their total number and how many are being sent during a transaction. <b>Small business mosaics</b> are given a discounted flat rate of 0.05 XEM per mosaic per transfer.  These are mosaics with a quantity of less than 10,000 and a divisibility of 0.',
-        MOSAIC_DEFINITION_INFORMATION_17: 'If you own 100% of the supply, you can overwrite all the mosaic properties by sending a creation transaction again with the same "namespace:mosaic" name.',
-=======
         MOSAIC_DEFINITION_INFORMATION: 'Wollen Sie mehr Informationen über Mosaike?',
         MOSAIC_DEFINITION_INFORMATION_1: 'Die maximale Länge für einen Mosaik-Namen sind 32 Zeichen. Erlaubte Zeichen sind:',
         MOSAIC_DEFINITION_INFORMATION_2: 'Das erse Zeichen muss ein Buchstabe aus dem Alphabet sein.',
@@ -327,7 +291,6 @@ function GermanProvider($translateProvider) {
         MOSAIC_DEFINITION_INFORMATION_15: 'Die Gebühr ist festgelegt als ein Vielfaches des Perzentil der Menge die überwiesen wird. Die Gebühr steigt also linear mit der Menge Mosaiks die überwiesen werden.',
         MOSAIC_DEFINITION_INFORMATION_16: 'Das Senden von Mosaiks auf der NEM Blockchain erfordert eine Gebühr. Die genaue Gebühr wird berechnet, abhängig der Gesamt-Anzahl und wieviele in einer Überweisung gesendet werden <b>Kleinbetrieb Mosaiks</b> werden mit einem Abschlag von 0.05 XEM pro Mosaik und Überweisung berechnet. Das sind Mosaiks mit einer Menge von weniger als 10.000 und einer Teilbarkeit von 0.',
         MOSAIC_DEFINITION_INFORMATION_17: 'Wenn Sie 100% des Bestands besitzen, können Sie alle Mosaik Eigenschaften überschreiben, indem Sie eine erneute Erstellungs-Überweisung mit dem selben "Namensraum:Mosaik" Namen senden.',
->>>>>>> add german translation for nano 2.0
 
         // EDIT MOSAIC MODULE
         MOSAIC_SUPPLY_CHANGE_TITLE: 'Bestand des Mosaiks ändern',
@@ -533,15 +496,9 @@ function GermanProvider($translateProvider) {
         APOSTILLE_AUDIT_INFORMATION_2: 'Sie können diese am Dateinamen erkennen:',
         //APOSTILLE_AUDIT_NON_SIGNED: 'Non signed exemple:',
         //APOSTILLE_AUDIT_SIGNED: 'Signed exemple:',
-<<<<<<< HEAD
-        APOSTILLE_AUDIT_FILES: 'Audit files',
-        APOSTILLE_AUDIT_FORMAT_EXAMPLE: 'Apostille format example',
-        APOSTILLE_AUDIT_REMOVE_RECORDS: 'Remove records locally',
-=======
         APOSTILLE_AUDIT_FILES: 'Audit Dateien',
         APOSTILLE_AUDIT_FORMAT_EXAMPLE: 'Apostillen Format Beispiel',
         APOSTILLE_AUDIT_REMOVE_RECORDS: 'Entferne Datensätze lokal',
->>>>>>> add german translation for nano 2.0
 
         // APOSTILLE MESSAGE MODULE
         APOSTILLE_MESSAGE_TITLE: 'Sende Nachricht an Notar-Konto',
@@ -618,21 +575,6 @@ function GermanProvider($translateProvider) {
         ALERT_BTC_MARKET_ERROR: 'Fehler beim Abrufen des Bitcoin Preises',
         ALERT_COSIG_REMOVAL_LIMIT: 'Es kann jeweils nur ein Mitunterzeichner gleichzeitig entfernt werden',
         ALERT_MULTISIG_MIN_SIGNATURE_INVALID: 'Ungültige minimale Anzahl von Signaturen',
-<<<<<<< HEAD
-        ALERT_INSUFFICIENT_BALANCE: 'Insufficient Balance for performing the operation',
-        ALERT_VOTING_ERROR: 'Invalid Vote',
-        ALERT_BRAIN_PASSWORD_TOO_SHORT: 'Brain wallet passphrase must be at least 40 characters!',
-        ALERT_NODE_SEEMS_OFFLINE: 'Node seems offline, please select another one',
-        ALERT_WEAK_PASSPHRASE: 'Security score of the passphrase must be at least 3',
-        ALERT_BRAIN_WALLET_UPGRADE: 'Your brain wallet seems weak ! All brain wallets must use a passphrase with at least 40 characters.<br> We advise you to create a new wallet from the signup page and move your funds into it.<br> More info <a href="https://forum.nem.io/t/2791" target="_blank"><u>here</u></a>.',
-        ALERT_RECIPIENT_PUBLIC_KEY: 'Recipient has no public key visible to the network',
-        ALERT_ENCRYPT_MULTISIG: 'Can\'t send encrypted messages via multisig accounts',
-        ALERT_EXCHANGE_NEEDS_MESSAGE: 'Recipient is an exchange wallet and thus it requires a message for your account to be correctly credited, please read carefully the exchange deposit instructions!',
-        ALERT_ACCOUNT_ALREADY_IN_ADDRESS_BOOK: 'Contact already present in address book!',
-        ALERT_MAX_MOSAIC_SUPPLY: 'Maximum mosaic supply is 9\'000\'000\'000',
-        ALERT_GET_MOSAIC_SUPPLY_ERROR: 'Error at fetching mosaic supply, reason: ',
-        ALERT_ENCRYPTED_MSG_OFFLINE: 'Encrypted messaging is not enabled in offline transactions',
-=======
         ALERT_INSUFFICIENT_BALANCE: 'Unzureichendes Saldo um die Operation durchzuführen',
         ALERT_VOTING_ERROR: 'Ungültige Stimme',
         ALERT_BRAIN_PASSWORD_TOO_SHORT: 'Brain walleit Passphrase muss mindestens 40 Zeichen lang sein!',
@@ -645,7 +587,6 @@ function GermanProvider($translateProvider) {
         ALERT_ACCOUNT_ALREADY_IN_ADDRESS_BOOK: 'Kontakr ist bereits im Adressbuch vorhanden!',
         ALERT_MAX_MOSAIC_SUPPLY: 'Maximaler Mosaik Bestand ist 9\'000\'000\'000',
         ALERT_GET_MOSAIC_SUPPLY_ERROR: 'Fehler beim abhoen des Mosaik Bestands, Grund: ',
->>>>>>> add german translation for nano 2.0
 
         // SUCCESS ALERTS
         ALERT_CREATE_WALLET_SUCCESS: 'Die Wallet wurde erfolgreich erstellt und geladen !',
@@ -658,16 +599,9 @@ function GermanProvider($translateProvider) {
         ALERT_SIGNATURE_SUCCESS: 'Transaktion erfolgreich signiert !',
         ALERT_NTY_FILE_SUCCESS: 'Öffnen der nty Datei war erfolgreich !',
         ALERT_INCOMING_TX_FROM: 'Eingehende Transaktion von ',
-<<<<<<< HEAD
-        ALERT_ADDRESS_BOOK_FILE_SUCCESS: 'Adressbuch erfolgreich Importiert !',
-        ALERT_VOTING_SUCCESS: 'Vote Sent Successfully',
-        ALERT_POLL_CREATION_SUCCESS: 'Poll Created Successfully',
-        ALERT_COPY_SIGNED_TX_SUCCESS: 'Signed transaction copied!',
-=======
         ALERT_ADDRESS_BOOK_FILE_SUCCESS: 'Adressbuch erfolgreich importiert !',
         ALERT_VOTING_SUCCESS: 'Abstimmung erfolgreich gesendet',
         ALERT_POLL_CREATION_SUCCESS: 'Umfrage erfolgreich erstellt',
->>>>>>> add german translation for nano 2.0
 
         // CONVERT ACCOUNT TO MULTISIG
         AGGREGATE_MODIFICATION_TITLE: 'Ein Konto in ein Multi-Signatur Konto umwandeln',
@@ -696,13 +630,8 @@ function GermanProvider($translateProvider) {
         AGGREGATE_SELECTED_ACCOUNT_INFO: 'Kontoinformationen anpassen',
         AGGREGATE_MIN_SIGNATURES: 'Minimum Signaturen',
         AGGREGATE_SELECT_WALLET_ACCOUNT: 'Konto der Wallet benutzen',
-<<<<<<< HEAD
-        AGGREGATE_ADD_COSIG: 'Add cosignatory',
-        AGGREGATE_REMOVE_COSIG: 'Remove cosignatory',
-=======
         AGGREGATE_ADD_COSIG: 'Mitunterzeichner hinzufügen',
         AGGREGATE_REMOVE_COSIG: 'Mitunterzeichner entfernen',
->>>>>>> add german translation for nano 2.0
 
         // SIGN MULTISIGNATURE TRANSACTIONS
         SIGN_MULTISIG_TRANSACTIONS_TITLE: 'Multi-Signatur Transaktion signieren',
@@ -716,11 +645,7 @@ function GermanProvider($translateProvider) {
         LOGIN_SELECT_WALLET_YOURS: 'Wallet auswählen',
         LOGIN_SELECT_WALLET: 'Eine Wallet im lokalen Speicher auswählen',
         LOGIN_LOGIN_BUTTON: 'Anmelden',
-<<<<<<< HEAD
-        LOGIN_NOTE: 'No wallet? Import one or <a href="#!/signup">signup</a>.',
-=======
         LOGIN_NOTE: 'Keine wallet? Eine Wallet importieren oder <a href="#!/anmelden"></a>.',
->>>>>>> add german translation for nano 2.0
 
         // SIGNUP MODULE
         SIGNUP_TITLE: 'Der NEM Community beitreten !',
@@ -743,10 +668,7 @@ function GermanProvider($translateProvider) {
         SIGNUP_BRAIN_WALLET_WARNING: 'Bitte informieren Sie sich über die <a href="https://en.bitcoin.it/wiki/Brainwallet" rel="nofollow" target="_blank">Risiken</a> die von einer Brain Wallets ausgehen können. Brain Wallets benutzen NUR eine Passphrase, welche mehrfach gehasht wurde. Es ist daher unbedingt Erforderlich, dass Sie eine SICHERE Passphrase mit mindestens 40 Zeichen verwenden. <a href="https://xkcd.com/936/" rel="nofollow" target="_blank">XKCD #936</a>',
         SIGNUP_PRIVATE_KEY_WALLET_WARNING: 'Wallets, welche aus einem importierten privaten Schlüssel erzeugt werden, benutzen NUR das Passwort um den privaten Schlüssel vor unberechtigten Zugriffen zu schützen. Es ist daher unbedingt Erforderlich ein SICHERES Passwort auszuwählen.',
         SIGNUP_CREATE_START_WARNING: 'Please, follow each step carefully!',
-<<<<<<< HEAD
         SIGNUP_CREATE_START_CONNECTION_WARNING: 'It is recommended to disconnect from internet while creating your wallet and backing up your data.',
-=======
->>>>>>> add german translation for nano 2.0
         SIGNUP_CREATE_READY_BTN: 'Ready',
         SIGNUP_CREATE_ENTER_NAME: 'Enter a wallet name',
         SIGNUP_CREATE_ENTER_PASSWORD: 'Enter a password',
@@ -792,33 +714,12 @@ function GermanProvider($translateProvider) {
         FAQ_ANSWER_6_FORUM: 'Offizielles Forum',
         FAQ_ANSWER_6_WEBSITE: 'Offizielle Webseite',
         FAQ_ANSWER_6_BTT: 'Offizieller BitcoinTalk Thread',
-<<<<<<< HEAD
-        FAQ_QUESTION_7: 'Nothing is shown on the dashboard',
-        FAQ_ANSWER_7: 'Please be sure to check the node circle in the top navigation bar. <br> Red circle means that connection to the node failed. <br> Click on "Node" and select another one from the dropdown list or use a custom node. <br> <a href="https://supernodes.nem.io" target="_blank">Supernodes.nem.io</a> has a lot of nodes that you can use.</a>',
-        FAQ_QUESTION_8: 'Cosignatories cannot see the transaction to sign',
-        FAQ_ANSWER_8: 'In this case go to "Services", look for "Multisignature and Multi-User Accounts" and click on "Sign multisig transactions".',
-        FAQ_QUESTION_9: 'What are the best security practices ?',
-        FAQ_ANSWER_9: 'It is hightly recommended to always store private keys on paper.<br> You can print them and archive them somewhere safe. <br><br> Regarding wallet files you should always keep multiple copies on different cold locations, like usb sticks. <br> Passwords must always be unique and complex, for this reason, always write it down first. <br><br> When you want to check your wallet or realise operations:<br> - Plug the usb stick <br> - Import the wallet in Nano<br> - Unplug the usb stick.<br><br> A copy of your wallet is stored in the browser local storage for all the time you need.<br> Once you are done, logout and purge the wallets in local storage using the purge button on the right side of the footer.',
-        FAQ_QUESTION_10: 'Where to find information about my account (address, etc) ?',
-        FAQ_ANSWER_10: 'If you look at the top navigation bar, you will see an <b><i>"Account"</b></i> button between <b><i>"Node"</b></i> and <b><i>"Language"</b></i>. There you can find your address, public key, vested balance and other important data.',
-        FAQ_QUESTION_11: 'I have deposited XEM to an exchange but nothing has been credited ?',
-        FAQ_ANSWER_11_1: 'First you must check that the hash of your transaction is pointing to an existing transaction on the <a target="_blank" href="http://chain.nem.ninja">explorer</a> (please, note that the explorer is a few blocks behind).',
-        FAQ_ANSWER_11_2: 'Most exchanges are asking for an identification message to credit your deposit. Make sure that you have followed carefully the exchange instructions and added a message that is NOT encrypted. ',
-        FAQ_ANSWER_11_3: 'Even if you have added a message, it can happen that exchanges may not process your deposit, because of issues on their side.',
-        FAQ_ANSWER_11_4: 'You must contact the exchange support, explain the situation and provide them the hash of the transaction.',
-        FAQ_QUESTION_12: 'How to check if I am on a fork ?',
-        FAQ_ANSWER_12_1: 'Click on <b><i>"Node"</b></i>, in the top navigation bar, to open the node panel.',
-        FAQ_ANSWER_12_2: 'Look at the chain height and compare it to the height shown <a target="_blank" href="http://bigalice3.nem.ninja:7890/chain/height">here</a>.',
-        FAQ_ANSWER_12_3: 'If different of more than 5 blocks then you are probably on a fork.',
-        FAQ_ANSWER_12_4: 'To fix, just choose another node from the dropdown in the node panel, it will restore your account at it\'s latest state on the real network.',
-=======
         FAQ_QUESTION_7: 'Auf dem Dashboard wird nichts angezeigt',
         FAQ_ANSWER_7: 'Überprüfen Sie den  Knoten-Kreis in der oberen Navigationsleiste. <br> Roter Kreis bedeutet, das die Verbindung zum Knoten fehlgeschlagen ist. <br> Klicken Sie auf "Knoten" und wählen Sie einen anderen aus der Liste oder benutzen Sie einen individuellen Knoten. <br> <a href="https://supernodes.nem.io" target="_blank">Supernodes.nem.io</a> hat eine Menge Knoten die Sie verwenden können.</a>',
         FAQ_QUESTION_8: 'Mitunterzeichner können die Transaktion zum Signieren nicht sehen',
         FAQ_ANSWER_8: 'Gehen Sie in diesem Fall auf "Services", schauen Sie nach "Multisignatur und Multi-User Konten" und klicken auf "Signiere Multisignatur Transaktionen".',
         FAQ_QUESTION_9: 'Was sind die besten Sicherheits Praktiken ?',
         FAQ_ANSWER_9: 'Es ist äußerst empfohlen die privaten Schlüssel immer auf Papier zu sichern.<br> Sie können diese ausdrucken und an einem sicheren Ort aufbewahren. <br><br> Bezüglich wallet Dateien sollten Sie immer mehrere Kopien an verschiedenen Orten aufbewahren, wie beispielsweise einem USB-stick. <br> Passwörter müssen immer einzigartig und komplex sein, aus diesem Grunds sollten Sie diesen immer zuerst aufschreiben. <br><br> Wenn Sie ihre wallet prüfen oder Aktionen durchführen wollen:<br> - Stecken Sie den USB-stick ein <br> - Importieren Sie die wallet in Nano<br> - Ziehen Sie den USB-stick ab.<br><br> Eine Kopie ihrer wallet ist im lokalen Browser Speicher gespeichert solange sie es brauchen.<br> Sobald Sie fertig sind, loggen Sie sich aus und löschen die wallet im lokalen Speicher indem Sie den Löschen-Knopf auf der rechten unteren Seite der Fußzeile verwenden.',
->>>>>>> add german translation for nano 2.0
 
         // FORM RELATED
         FORM_PASSWORD_FIELD_PLACEHOLDER: 'Wallet Passwort oder Passphrase eingeben',
@@ -843,22 +744,22 @@ function GermanProvider($translateProvider) {
         FORM_MESSAGE_PLACEHOLDER: 'Nachricht',
         FORM_MOSAIC_NAME_PLACEHOLDER: 'Name des Mosaik',
         FORM_ADDRESS_ALIAS_PLACEHOLDER: 'Kontoadresse oder @alias',
-<<<<<<< HEAD
-        FORM_BTN_GET_ALIAS: 'Get alias address',
-        FORM_BTN_OPEN_ADB: 'Open address book',
-        FORM_SELECT_NAMESPACE: 'Select a namespace',
+
+        FORM_BTN_GET_ALIAS: 'Hole Alias Adresse',
+        FORM_BTN_OPEN_ADB: 'Öffne Adressbuch',
+        FORM_SELECT_NAMESPACE: 'Wählen Sie einen Namensraum',
 
         // VOTING MODULE
         PORTAL_VOTING_TITLE: 'Voting',
-        PORTAL_VOTING_TEXT: 'Create and vote on polls',
-        PORTAL_VOTING_BTN1: 'See Polls',
-        PORTAL_VOTING_BTN2: 'Create Poll',
-        FORM_TITLE_FIELD_PLACEHOLDER: 'Title',
-        FORM_DESCRIPTION_FIELD_PLACEHOLDER: 'Write your description here',
-        FORM_OPTION_FIELD_PLACEHOLDER: 'write option',
-        FORM_WHITELIST_FIELD_PLACEHOLDER: 'account address',
-        FORM_SELECT_MULTISIG: 'Select a multisignature account',
-        FORM_SELECT_CONTACT: 'Select a contact',
+        PORTAL_VOTING_TEXT: 'Erstellen Sie und nehmen Sie Teil an Umfragen',
+        PORTAL_VOTING_BTN1: 'Zeige Umfragen',
+        PORTAL_VOTING_BTN2: 'Erstelle Umfrage',
+        FORM_TITLE_FIELD_PLACEHOLDER: 'Titel',
+        FORM_DESCRIPTION_FIELD_PLACEHOLDER: 'Geben Sie hier ihre Beschreibung ein',
+        FORM_OPTION_FIELD_PLACEHOLDER: 'Schreib-Option',
+        FORM_WHITELIST_FIELD_PLACEHOLDER: 'Konto-Adresse',
+        FORM_SELECT_MULTISIG: 'Wählen Sie ein Multisignatur-Konto',
+        FORM_SELECT_CONTACT: 'Wählen Sie einen Kontakt',
 
         // CREATE OFFLINE TRANSACTION MODULE
         OFFLINE_TX_TITLE: 'Prepare an offline transaction',
@@ -880,23 +781,6 @@ function GermanProvider($translateProvider) {
 
         // INVOICE MODULE
         CREATE_INVOICE_TITLE: 'Create an invoice'
-=======
-        FORM_BTN_GET_ALIAS: 'Hole Alias Adresse',
-        FORM_BTN_OPEN_ADB: 'Öffne Adressbuch',
-        FORM_SELECT_NAMESPACE: 'Wählen Sie einen Namensraum',
-
-        // VOTING MODULE
-        PORTAL_VOTING_TITLE: 'Voting',
-        PORTAL_VOTING_TEXT: 'Erstellen Sie und nehmen Sie Teil an Umfragen',
-        PORTAL_VOTING_BTN1: 'Zeige Umfragen',
-        PORTAL_VOTING_BTN2: 'Erstelle Umfrage',
-        FORM_TITLE_FIELD_PLACEHOLDER: 'Titel',
-        FORM_DESCRIPTION_FIELD_PLACEHOLDER: 'Geben Sie hier ihre Beschreibung ein',
-        FORM_OPTION_FIELD_PLACEHOLDER: 'Schreib-Option',
-        FORM_WHITELIST_FIELD_PLACEHOLDER: 'Konto-Adresse',
-        FORM_SELECT_MULTISIG: 'Wählen Sie ein Multisignatur-Konto',
-        FORM_SELECT_CONTACT: 'Wählen Sie einen Kontakt'
->>>>>>> add german translation for nano 2.0
     });
 
 }
